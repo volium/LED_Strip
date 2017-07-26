@@ -478,7 +478,7 @@
   (zone (net 0) (net_name "") (layer Top) (tstamp 5978C9E2) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.254)
-    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 1.27))
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 1.27) (smoothing fillet) (radius 1.27))
     (polygon
       (pts
         (xy 120 100) (xy 100 100) (xy 100 88) (xy 120 88)
@@ -619,7 +619,7 @@
   (zone (net 0) (net_name "") (layer Bottom) (tstamp 5978C9E2) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.254)
-    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 1.27))
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 1.27) (smoothing fillet) (radius 1.27))
     (polygon
       (pts
         (xy 120 100) (xy 100 100) (xy 100 88) (xy 120 88)
