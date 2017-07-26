@@ -1,0 +1,187 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:LED Strip-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LED D1
+U 1 1 59773C6A
+P 2850 1150
+F 0 "D1" H 2850 1250 50  0000 C CNN
+F 1 "LED" H 2850 1050 50  0000 C CNN
+F 2 "LEDs:LED_PLCC-2" H 2850 1150 50  0001 C CNN
+F 3 "" H 2850 1150 50  0001 C CNN
+	1    2850 1150
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D2
+U 1 1 59773C9C
+P 3250 1150
+F 0 "D2" H 3250 1250 50  0000 C CNN
+F 1 "LED" H 3250 1050 50  0000 C CNN
+F 2 "LEDs:LED_PLCC-2" H 3250 1150 50  0001 C CNN
+F 3 "" H 3250 1150 50  0001 C CNN
+	1    3250 1150
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D3
+U 1 1 59773CCC
+P 3650 1150
+F 0 "D3" H 3650 1250 50  0000 C CNN
+F 1 "LED" H 3650 1050 50  0000 C CNN
+F 2 "LEDs:LED_PLCC-2" H 3650 1150 50  0001 C CNN
+F 3 "" H 3650 1150 50  0001 C CNN
+	1    3650 1150
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D4
+U 1 1 59773CF7
+P 4050 1150
+F 0 "D4" H 4050 1250 50  0000 C CNN
+F 1 "LED" H 4050 1050 50  0000 C CNN
+F 2 "LEDs:LED_PLCC-2" H 4050 1150 50  0001 C CNN
+F 3 "" H 4050 1150 50  0001 C CNN
+	1    4050 1150
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D5
+U 1 1 59773D23
+P 2850 1450
+F 0 "D5" H 2850 1550 50  0000 C CNN
+F 1 "LED" H 2850 1350 50  0000 C CNN
+F 2 "LEDs:LED_PLCC-2" H 2850 1450 50  0001 C CNN
+F 3 "" H 2850 1450 50  0001 C CNN
+	1    2850 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D6
+U 1 1 59773D52
+P 3250 1450
+F 0 "D6" H 3250 1550 50  0000 C CNN
+F 1 "LED" H 3250 1350 50  0000 C CNN
+F 2 "LEDs:LED_PLCC-2" H 3250 1450 50  0001 C CNN
+F 3 "" H 3250 1450 50  0001 C CNN
+	1    3250 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D7
+U 1 1 59773D7C
+P 3650 1450
+F 0 "D7" H 3650 1550 50  0000 C CNN
+F 1 "LED" H 3650 1350 50  0000 C CNN
+F 2 "LEDs:LED_PLCC-2" H 3650 1450 50  0001 C CNN
+F 3 "" H 3650 1450 50  0001 C CNN
+	1    3650 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D8
+U 1 1 59773DA9
+P 4050 1450
+F 0 "D8" H 4050 1550 50  0000 C CNN
+F 1 "LED" H 4050 1350 50  0000 C CNN
+F 2 "LEDs:LED_PLCC-2" H 4050 1450 50  0001 C CNN
+F 3 "" H 4050 1450 50  0001 C CNN
+	1    4050 1450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3000 1150 3100 1150
+Wire Wire Line
+	3400 1150 3500 1150
+Wire Wire Line
+	3800 1150 3900 1150
+Wire Wire Line
+	3000 1450 3100 1450
+Wire Wire Line
+	3400 1450 3500 1450
+Wire Wire Line
+	3800 1450 3900 1450
+Wire Wire Line
+	4200 1150 4300 1150
+Wire Wire Line
+	4300 1150 4300 1450
+Wire Wire Line
+	4300 1450 4200 1450
+Wire Wire Line
+	2700 1150 2600 1150
+Wire Wire Line
+	2600 1150 2600 1450
+Wire Wire Line
+	2600 1450 2700 1450
+Wire Wire Line
+	4300 1300 4600 1300
+Connection ~ 4300 1300
+Wire Wire Line
+	2600 1300 2300 1300
+Connection ~ 2600 1300
+Text Label 4600 1300 2    60   ~ 0
+LED_K
+Text Label 2300 1300 0    60   ~ 0
+LED_A
+$Comp
+L CONN_01X02 J1
+U 1 1 5977B41D
+P 5250 1250
+F 0 "J1" H 5250 1400 50  0000 C CNN
+F 1 "CONN_01X02" V 5350 1250 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 5250 1250 50  0001 C CNN
+F 3 "" H 5250 1250 50  0001 C CNN
+	1    5250 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 1200 4700 1200
+Text Label 4700 1200 0    60   ~ 0
+LED_A
+Wire Wire Line
+	5050 1300 4700 1300
+Text Label 4700 1300 0    60   ~ 0
+LED_K
+$EndSCHEMATC
